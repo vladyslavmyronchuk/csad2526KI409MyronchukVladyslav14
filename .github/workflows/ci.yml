@@ -1,1 +1,42 @@
+name: Cross Build CI
 
+on:
+  push:
+    branches:
+      - '*develop*'
+      - '*master*'
+  pull_request:
+    branches:
+      - '*develop*'
+      - '*master*'
+
+jobs:
+  cross_build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up CMake
+        uses: jwlawson/actions-setup-cmake@v2
+        with:
+          cmake-version: '3.22.0'
+
+      - name: Configure Project
+        run: |
+          cmake -S . -B build
+
+      - name: Build Project
+        run: |
+          cmake --build build
+
+      - name: Run Unit Tests
+        run: |
+          cd build
+          ctest --output-on-failure
+
+      - name: Deploy
+        run: echo "Deploy step placeholder. Add your deploy script here."
