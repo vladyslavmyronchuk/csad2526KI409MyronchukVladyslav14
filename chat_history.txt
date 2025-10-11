@@ -1,22 +1,606 @@
-Chat History - Version 9
+1. Користувач: ти маєш  створити даний файл у  https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/tree/feature/develop/01-HelloWorld
+2. Copilot: Будь ласка, надай вміст файлу, який потрібно створити, або опиши, що саме має міститися у цьому файлі. Я готовий допомогти з його генерацією та додаванням у вказану директорію.
+3. Користувач: Створити вихідний файл за допомогою Copilot: У корені репозиторію створіть файл main.cpp з мінімальною програмою "Hello World": Мій репозиторій -https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/tree/feature/develop/01-HelloWorld
+4. Copilot: Очікую на вашу відповідь для підтвердження створення файлу main.cpp у вашому репозиторії.
+5. Користувач: @Copilot Accepted Confirmation: Are you sure?
+6. Copilot: (Файл створено)  
+   #include <iostream>
+   int main() {
+       std::cout << "Hello World" << std::endl;
+       return 0;
+   }
+   Файл main.cpp з мінімальною програмою "Hello World" успішно створено у корені вашого репозиторію на гілці feature/develop/01-HelloWorld. Переглянути файл на GitHub: main.cpp
+7. Користувач: як добавити ревюрева на дану гілку
+8. Copilot: Щоб додати ревʼювера (reviewer) для перевірки змін на певній гілці, потрібно створити Pull Request (PR) з цієї гілки у цільову (наприклад, з feature/develop/01-HelloWorld у main чи develop) і призначити ревʼювера до цього PR... (далі інструкція)
+9. Користувач: там є секція ,вводжу нік але нічого не відбувається
+10. Copilot: Якщо при додаванні ревʼювера у секції Reviewers нічого не відбувається, можливі причини та рішення:  
+    (перелік причин, рішень, посилань)
+11. Користувач: всю історію логів цього чату запиши у txt
+12. Copilot: Ось текстова версія історії логів цього чату (у форматі txt): (цей файл)
+13. Користувач: @Copilot Accepted Confirmation: Are you sure?
+14. Copilot: Додано базовий CMakeLists.txt до гілки feature/develop/02-cmakelist репозиторію. Посилання на файл: https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/blob/feature/develop/02-cmakelist/CMakeLists.txt
+15. Користувач: всю історію логів цього чату запиши у txt
+16. Copilot: Ось повна історія логів цього чату у форматі txt.
+17. Користувач: тільки там маж українською користувач
+18. Користувач: @vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/pull/2 потрібно назву пулл реквесту змінити на англійській мові ,також коментарі в cmakelist.txt також мають бути на англ мові
+19. Асистент: 
+1. Назву пулл реквесту потрібно змінити на англійську.
+2. Коментарі у CMakeLists.txt мають бути англійською.
+Не вдалося знайти файл CMakeLists.txt. Вкажіть його розташування або вміст.
+20. Користувач: https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/tree/feature/develop/02-cmakelist
+21. Асистент: 
+CMakeLists.txt містить коментар "# Додає всі .cpp файли з поточної директорії", його слід змінити на "# Adds all .cpp files from the current directory".
+22. Користувач: так
+23. Асистент: Чекаю вашого підтвердження для внесення змін.
+24. Користувач: тільки там має бути на англійські - "додав cmakelist.txt"(на англ мові) , та де змінити коментар у cmakelist.txt - "Додає всі .cpp файли з поточної директорії"(на англ мові)
+25. Асистент: 
+Назва пулл реквесту має бути "Added CMakeLists.txt".
+Коментар у CMakeLists.txt — "# Adds all .cpp files from the current directory".
+Чи внести ці зміни?
+26. Користувач: так ,і назву коміту змінити
+27. Асистент: Чекаю вашого підтвердження для оновлення.
+28. Користувач: @Copilot Accepted Confirmation: Are you sure?
+29. Асистент: 
+Змінив коментар у CMakeLists.txt на англійську.
+Назва коміту: Changed comment to English in CMakeLists.txt
+30. Користувач: Додано CMakeLists.txt у гілку #2,треба також змінити poolrequest
+31. Асистент:
+Зміна назви pull request не підтримується інструментом, зробіть це вручну через GitHub.
+32. Користувач: як змінити назву pool-request
+33. Асистент:
+1. Відкрийте pull request на GitHub.
+2. Натисніть "Edit" (значок олівця) біля назви.
+3. Введіть нову назву.
+4. Натисніть "Save" або Enter.
+34. Користувач: 
+Створення модуля для тестування:
+○ Створіть файл math_operations.h та math_operations.cpp у корені проекту.
+○ У math_operations.h за допомогою Copilot створіть функцію int add(int a, int b);
+2. Створення файлу юніт-тестів:
+○ Створіть новий каталог tests. У ньому створіть файл unit_tests.cpp.
+○ Напишіть юніт тести за допомогою Copilot
+3. Оновлення CMakeLists.txt:
+○ Використовуйте Copilot для додавання підтримки Google Test у ваш CMakeLists.txt.
+○ Далі, за допомогою Copilot, додайте інструкції для створення тестового виконуваного файлу та запуску тестів
+4. Закомітити зміни у feature/develop/03-UnitTesting(коментарі у програмі - лише на англ мові)
 
-User: Create a file called chat_history.txt in the branch develop of the repository vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14 with the content provided as chat_history.txt version 9 (all log from this chat).
+35. Користувач:
+https://github.com/vladyslavmyronchuk?tab=repositories
 
-Assistant: Understood! I will create the file chat_history.txt with the specified content in the develop branch of the repository vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14.
+36. Користувач:
+https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/tree/feature/develop/03-UnitTesting
 
-User: Create a new branch called 'feature-x' from main.
-Assistant: Use create_branch.
-User: Update the README file with new instructions.
-Assistant: Use create_or_update_file.
-User: Merge pull request #42.
-Assistant: Use merge_pull_request.
-User: Push these files to the repo.
-Assistant: Use push_files.
-User: Update the pull request branch with the latest changes.
-Assistant: Use update_pull_request_branch.
-User: Create a pull request that adds more unit tests for this file.
-Assistant: Use create_pull_request_with_copilot.
-User: Open a PR to fix the login system in <repo>.
-Assistant: Use create_pull_request_with_copilot.
-User: Create a file called chat_history.txt in the branch develop...
-Assistant: Creating the file now.
+37. Користувач:
+@Copilot Accepted Confirmation: Are you sure?
+
+38. Користувач:
+@Copilot Accepted Confirmation: Are you sure?
+
+39. Користувач:
+@Copilot Accepted Confirmation: Are you sure?
+
+40. Користувач:
+@Copilot Accepted Confirmation: Are you sure?
+
+41. Користувач:
+@Copilot Accepted Confirmation: Are you sure?
+
+42. Користувач:
+@Copilot Accepted Confirmation: Are you sure?
+
+43. Користувач:
+3. Оновлення CMakeLists.txt:
+○ Використовуйте Copilot для додавання підтримки Google Test у ваш CMakeLists.txt.
+○ Далі, за допомогою Copilot, додайте інструкції для створення тестового виконуваного файлу та запуску тестів ви ж це зробили?
+
+44. Користувач:
+бо перший cmakelist.txt був такий
+cmake_minimum_required(VERSION 3.10)
+
+project(csad2526KI409MyronchukVladyslav14 VERSION 1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Adds all .cpp files from the current directory
+file(GLOB SOURCES "*.cpp")
+
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+45. Користувач:
+давай
+
+46. Користувач:
+давай
+
+47. Користувач:
+все вірно
+
+48. Користувач:
+там все по старому
+
+49. Користувач:
+@Copilot Accepted Confirmation: Are you sure?
+
+50. Користувач:
+This branch has conflicts that must be resolved
+Use the web editor or the command line to resolve conflicts before continuing.
+
+51. Користувач:
+@Copilot Accepted Confirmation: Are you sure?
+
+52. Користувач:
+cmake_minimum_required(VERSION 3.10)
+
+project(csad2526KI409MyronchukVladyslav14 VERSION 1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+<<<<<<< feature/develop/03-UnitTesting
+# Adds all .cpp files from the current directory for the main executable
+file(GLOB SOURCES "*.cpp")
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+# Math operations library for unit testing
+add_library(math_operations math_operations.cpp)
+
+# Google Test setup
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/refs/heads/main.zip
+)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+
+# Create unit test executable
+add_executable(unit_tests tests/unit_tests.cpp)
+target_link_libraries(unit_tests gtest_main math_operations)
+
+include(GoogleTest)
+gtest_discover_tests(unit_tests)
+=======
+# Adds all .cpp files from the current directory
+file(GLOB SOURCES "*.cpp")
+
+add_executable(${PROJECT_NAME} ${SOURCES})
+>>>>>>> develop
+
+53. Користувач:
+cmake_minimum_required(VERSION 3.10)
+
+project(csad2526KI409MyronchukVladyslav14 VERSION 1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Adds all .cpp files from the current directory for the main executable
+file(GLOB SOURCES "*.cpp")
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+# Math operations library for unit testing
+add_library(math_operations math_operations.cpp)
+
+# Google Test setup
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/refs/heads/main.zip
+)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+
+# Create unit test executable
+add_executable(unit_tests tests/unit_tests.cpp)
+target_link_libraries(unit_tests gtest_main math_operations)
+
+include(GoogleTest)
+gtest_discover_tests(unit_tests)
+
+
+порівняти цей код і цей
+
+cmake_minimum_required(VERSION 3.10)
+
+project(csad2526KI409MyronchukVladyslav14 VERSION 1.0 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Adds all .cpp files from the current directory for the main executable
+file(GLOB SOURCES "*.cpp")
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+# Math operations library for unit testing
+add_library(math_operations math_operations.cpp)
+
+# Google Test setup
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/refs/heads/main.zip
+)
+set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+
+# Create unit test executable
+add_executable(unit_tests tests/unit_tests.cpp)
+target_link_libraries(unit_tests gtest_main math_operations)
+
+include(GoogleTest)
+gtest_discover_tests(unit_tests)
+
+вони схожі?
+54. Користувач: коменти на англ мові мають бути,у мене віндовсі
+55. Copilot: Ось скоригований скрипт для **Windows** (`ci.bat`) з коментарями англійською мовою:
+...
+(Відповідь з англійськими коментарями)
+
+56. Користувач: Тестування: Запустити скрипт локально, щоб переконатися, що білд проходить успішно, і генерується виконуваний файл hello. Скрипт має запускатися без параметрів
+57. Copilot: Ось інструкція для **тестування скрипту на Windows**:
+...
+(Пояснення та інструкція по запуску)
+
+58. Користувач: C:\WINDOWS\system32>cd D:/універ/4 курс/1sem/АПКСС
+Системе не удается найти указанный путь.
+59. Copilot: Ваша команда не спрацювала, бо ви намагаєтеся використати `cd` для переходу на диск **D:** із поточного місця на диску **C:**.
+...
+(Пояснення, як перейти на диск D)
+
+60. Користувач: CMake Warning:
+  Ignoring extra path from command line:
+   ".."
+CMake Error: The source directory "D:/універ/4 курс/1sem/АПКС" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+Error: could not load cache
+Test project D:/універ/4 курс/1sem/АПКС/build
+No tests were found!!!
+CI pipeline completed successfully!
+61. Copilot: Ось як розібратися з вашою помилкою та правильно завершити тестування CI скрипту:
+...
+(Пояснення про CMakeLists.txt, hello.cpp, структура папок)
+
+62. Користувач: може мені просто створити ci.cmd?
+63. Copilot: Так, для **Windows** можна створити файл **`ci.cmd`** — це буде аналогічно до `ci.bat`.
+...
+(Інструкція і приклад для ci.cmd)
+
+64. Користувач: о це має бути
+○ Створення каталогу білдування (mkdir build).
+○ Перехід у каталог (cd build).
+○ Конфігурування проекту за допомогою CMake (cmake ..).
+○ Білдування проєкту (cmake --build .).
+○ Забезпечте права на виконання (chmod +x build.sh) та зафіксуйте зміни.
+○ Створіть крок, який запускає тести за допомогою CTest (частина CMake), і переконайтеся, що він виконується на всіх трьох ОС:
+2. Тестування: Запустити скрипт локально, щоб переконатися, що білд проходить успішно, і генерується виконуваний файл hello. Скрипт має запускатися без параметрів
+
+65. Copilot: Ось готові скрипти для **Windows** (`ci.cmd`) та **Linux/macOS** (`ci.sh`) із англійськими коментарями, які виконують усі потрібні кроки для автоматичного білду, тестування та (для Linux/macOS) надання прав на виконання:
+...
+(Скрипти і пояснення)
+
+66. Користувач: де тут згадка про hello
+67. Copilot: У наведеному скрипті **немає прямої згадки про виконуваний файл `hello`** — і це нормально для CI-скрипту на основі CMake.
+...
+(Пояснення про CMakeLists.txt)
+
+68. Користувач: ОТ ЩО МАЄ БУТИ
+Створіть скрипт: Створіть файл ci.sh (для Linux/macOS) або ci.bat/ci.cmd (для Windows). Використовуйте Copilot для генерації команд, які виконують наступні кроки:
+○ Створення каталогу білдування (mkdir build).
+○ Перехід у каталог (cd build).
+○ Конфігурування проекту за допомогою CMake (cmake ..).
+○ Білдування проєкту (cmake --build .).
+○ Забезпечте права на виконання (chmod +x build.sh) та зафіксуйте зміни.
+○ Створіть крок, який запускає тести за допомогою CTest (частина CMake), і переконайтеся, що він виконується на всіх трьох ОС:
+2. Тестування: Запустити скрипт локально, щоб переконатися, що білд проходить успішно, і генерується виконуваний файл hello. Скрипт має запускатися без параметрів
+69. Copilot: Ось готові скрипти для Windows і Linux/macOS з англійськими коментарями:
+...
+(Скрипти і пояснення)
+
+70. Користувач: Тестування: Запустити скрипт локально, щоб переконатися, що білд проходить успішно, і генерується виконуваний файл hello. Скрипт має запускатися без параметрів.
+то як
+71. Copilot: Ось покрокова інструкція, **як протестувати ваш CI-скрипт (ci.cmd) локально на Windows** і переконатися, що білд проходить успішно та генерується виконуваний файл `hello.exe`:
+...
+(Інструкція)
+
+72. Користувач: D:\універ\4 курс\1sem\АПКС>ci.cmd
+CMake Warning:
+  Ignoring extra path from command line:
+   ".."
+CMake Error: The source directory "D:/універ/4 курс/1sem/АПКС" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+Error: could not load cache
+Test project D:/універ/4 курс/1sem/АПКС/build
+No tests were found!!!
+73. Copilot: Ваша помилка означає, що у вашій директорії  
+`D:/універ/4 курс/1sem/АПКС`  
+**немає файлу `CMakeLists.txt`** — саме його шукає CMake для конфігурації проекту.
+...
+(Пояснення і рішення)
+
+74. Користувач: D:\універ\4 курс\1sem\АПКС>ci.cmd
+-- Building for: Visual Studio 17 2022
+-- Selecting Windows SDK version 10.0.26100.0 to target Windows 10.0.19045.
+-- The C compiler identification is MSVC 19.42.34433.0
+-- The CXX compiler identification is MSVC 19.42.34433.0
+...
+The following tests FAILED:
+          1 - RunHello (Not Run)
+Errors while running CTest
+CI pipeline completed successfully!
+75. Copilot: Ваш скрипт і білд працюють правильно — **hello.exe створено!**  
+Але тест не був запущений через CTest, бо для Visual Studio білду за замовчуванням виконуваний файл знаходиться у підпапці **Debug** ...
+(Пояснення і рішення з -C Debug)
+
+76. Користувач: окей,тоді ci.cmd оновлений та онови ci.sh,закинь іх на гілку
+https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/tree/feature/develop/04-unit_testing
+77. Copilot: Оновлений файл **ci.cmd** вже знаходиться на вашій гілці:
+...
+(Відповідь і скрипт)
+
+78. Користувач: так
+79. Copilot: Ось оновлений файл для Linux/macOS **ci.sh** з англійськими коментарями, який відповідає вашому CI-процесу:
+...
+(Відповідь і скрипт)
+
+80. Користувач: так
+81. Copilot: (Підтвердження, додавання файлу)
+
+82. Користувач: додав на гілку?
+83. Copilot: (Підтвердження, файл додано)
+
+84. Користувач: @Copilot Accepted Confirmation: Are you sure?
+85. Copilot: (Файл ci.sh додано на вашу гілку)
+
+86. Користувач: вони обидва виконують 
+○ Створення каталогу білдування (mkdir build).
+○ Перехід у каталог (cd build).
+○ Конфігурування проекту за допомогою CMake (cmake ..).
+○ Білдування проєкту (cmake --build .).
+○ Забезпечте права на виконання (chmod +x build.sh) та зафіксуйте зміни.
+○ Створіть крок, який запускає тести за допомогою CTest (частина CMake),
+і переконайтеся, що він виконується на всіх трьох ОС:
+87. Copilot: Так, обидва скрипти (**ci.cmd** для Windows і **ci.sh** для Linux/macOS) виконують всі зазначені тобою кроки CI:
+...
+(Пояснення для обох скриптів)
+Користувач: Створення структури Actions: У гілці створіть каталог .github/workflows/. У ньому створіть файл, наприклад, ci.yml https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/tree/feature/develop/05-yml_files
+
+Використання Copilot для YML: У файлі ci.yml використовуйте Copilot для генерації робочого процесу (workflow) з наступними вимогами:
+○ Trigger: Запускати акцію при push або pull request у гілку, що містить в назві develop чи master .
+○ Job: Створити одну Job (наприклад, cross_build).
+○ Strategy: Використати матрицю (strategy: matrix) для запуску білду на трьох ОС:
+■ runs-on: ubuntu-latest (Linux)
+■ runs-on: windows-latest (Windows)
+■ runs-on: macos-latest (macOS)
+○ Steps: Кожен білд повинен включати кроки:
+■ Checkout коду (actions/checkout@v4) - https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/tree/feature/develop/04-unit_testing
+■ Встановлення CMake (якщо потрібно).
+■ Запуск команд конфігурації та білдування (запуск скрипту з Етапу 3).
+https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/tree/feature/develop/03-UnitTesting
+■ Deploy.
+
+Copilot: Ось приклад файлу `.github/workflows/ci.yml`, який відповідає вашим вимогам для запуску CI/CD на трьох ОС із матрицею, тригером на push/pull request у гілки, що містять `develop` чи `master`, кроками checkout, встановлення CMake, конфігурацією та білдуванням (припускаємо, що білд запускається через скрипт з Етапу 3, наприклад, `build.sh` або аналогічний для Windows), а також кроком Deploy.
+
+... (тут був приклад workflow)
+
+Copilot: Файл додано у `.github/workflows/ci.yml` згідно вимог.  
+За потреби змініть кроки білду чи деплою на ваші власні скрипти.
+
+Користувач: У ГІЛКУ ФАЙЛ,НУ ПАПКУ,ДЕ ЗАПИТ НА ПІДТРВЕДЖЕННЯ
+
+Copilot: Очікуємо на вашу підтвердження дії, щоб завершити додавання файлу у гілку.
+
+Користувач: @Copilot Accepted Confirmation: Are you sure?
+
+Copilot: В мене немає прав додати файл напряму у гілку (feature/develop/05-yml_files) цього репозиторію.  
+Вам потрібно надати відповідні права для інтеграції, або додати файл вручну.
+
+Ось готовий вміст файлу, який ви можете додати у `.github/workflows/ci.yml` самостійно:
+...(workflow)...
+
+Якщо потрібна допомога з ручним додаванням чи з налаштуваннями прав — напишіть!
+
+Користувач: ЯК НАДАТИ ПРАВА
+
+Copilot: Щоб надати права GitHub інтеграції (наприклад, Copilot або GitHub Apps) для внесення змін у репозиторій, потрібно зробити кілька кроків:
+...(інструкція)...
+
+Користувач: Classic branch protections have not been configured
+
+Define branch rules to disable force pushing, prevent branches from being deleted, or require pull requests before merging. Learn more about repository rules and protected branches.
+
+Copilot: Щоб надати інтеграції або користувачам права для роботи з гілками (і дозволити автоматизовані зміни — наприклад, додавання файлів через Copilot чи GitHub Actions), потрібно налаштувати правила захисту гілок (branch protections):
+...(інструкція)...
+
+Користувач: спробуй ще раз добавити
+
+Copilot: Очікую на вашу відповідь у діалоговому вікні для завершення додавання файлу у гілку.
+
+Користувач: @Copilot Accepted Confirmation: Are you sure?
+
+Copilot: Все ще не вистачає прав для автоматичного додавання файлу через інтеграцію GitHub Copilot.
+
+Вам потрібно вручну додати цей файл до гілки `feature/develop/05-yml_files` у вашому репозиторії. Ось готовий файл для копіювання:
+...(workflow)...
+
+Якщо потрібна детальна інструкція з картинками — напишіть, і я допоможу!
+
+Користувач: це якийсь треш
+
+Copilot: Розумію вашу реакцію — часто інтеграції GitHub (боти, Copilot, CI/CD) не мають автоматичного доступу для запису у репозиторії через стандартні обмеження безпеки GitHub. Це не баг, а стандартна політика GitHub для захисту ваших даних.
+...(пояснення)...
+
+Користувач: а чмоу ти не можеш добавити?
+
+Copilot: Я не можу додати файл напряму у ваш репозиторій, тому що інтеграція Copilot (або будь-який бот, який працює через API GitHub) не має достатніх прав для запису у ваш репозиторій.
+...(пояснення)...
+
+Користувач: так ти до інших гілок добавляв дані
+
+Copilot: Вірно, я можу додавати файли чи змінювати дані у репозиторіях і гілках лише якщо інтеграція має права запису ("write access") саме до цієї гілки і репозиторія.  
+...(пояснення)...
+
+Користувач: ой файли
+
+Copilot: Ось файл для workflow, який потрібно додати у ваш репозиторій у гілку `feature/develop/05-yml_files` у папку `.github/workflows/`:
+...(workflow)...
+
+Цей файл потрібно вставити у `.github/workflows/ci.yml` у вашій гілці.  
+Якщо потрібно ще файли — напишіть, які саме!
+
+Користувач: стоп,до інших гілок,ти міг добавляти файли,а до цієї нічого не можеш,хотя я нічого не змінював
+
+Copilot: Це справді виглядає дивно, і така поведінка може бути спричинена кількома причинами, навіть якщо ви нічого не змінювали вручну:
+...(пояснення)...
+
+Користувач: добре я вручну створю
+
+Copilot: Чудово! Ось інструкція для швидкого ручного створення файлу workflow:
+...(інструкція)...
+
+Користувач: як створити папку
+
+Copilot: Щоб створити папку (`.github/workflows`) у вашому репозиторії на GitHub для workflow-файлів, виконайте одну з наступних інструкцій:
+...(інструкція)...
+
+Користувач: тут все точно є ?
+Використання Copilot для YML: У файлі ci.yml використовуйте Copilot для генерації робочого процесу (workflow) з наступними вимогами:
+○ Trigger: Запускати акцію при push або pull request у гілку, що містить в назві develop чи master .
+○ Job: Створити одну Job (наприклад, cross_build).
+○ Strategy: Використати матрицю (strategy: matrix) для запуску білду на трьох ОС:
+■ runs-on: ubuntu-latest (Linux)
+■ runs-on: windows-latest (Windows)
+■ runs-on: macos-latest (macOS)
+○ Steps: Кожен білд повинен включати кроки:
+■ Checkout коду (actions/checkout@v4).
+■ Встановлення CMake (якщо потрібно).
+■ Запуск команд конфігурації та білдування (запуск скрипту з Етапу 3).
+■ Deploy
+
+Copilot: Ось детальна перевірка вашого workflow на відповідність кожній вимозі:
+...(аналіз і підтвердження відповідності)...
+
+Користувач: може цей скрипт
+@vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/files/tests/unit_tests.cpp
+
+The following references were attached as context:
+
+File path: tests/unit_tests.cpp
+Source URL: https://github.com/vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/blob/e799fbc4786ae314560c0f0690c75aa8eba69b85/tests/unit_tests.cpp
+Repo: vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14
+CommitOID: e799fbc4786ae314560c0f0690c75aa8eba69b85
+BlobSha: 
+```c++
+#include <gtest/gtest.h>
+#include "../math_operations.h"
+
+// Test for the add function
+TEST(MathOperationsTest, AddPositiveNumbers) {
+    EXPECT_EQ(add(2, 3), 5);
+}
+
+TEST(MathOperationsTest, AddNegativeNumbers) {
+    EXPECT_EQ(add(-2, -3), -5);
+}
+
+TEST(MathOperationsTest, AddMixedNumbers) {
+    EXPECT_EQ(add(-2, 3), 1);
+    EXPECT_EQ(add(2, -3), -1);
+}
+
+TEST(MathOperationsTest, AddZero) {
+    EXPECT_EQ(add(0, 0), 0);
+    EXPECT_EQ(add(0, 5), 5);
+    EXPECT_EQ(add(5, 0), 5);
+}
+```
+
+Copilot: Так, цей файл `tests/unit_tests.cpp` — це приклад тестового скрипту для C++ з використанням Google Test.  
+Він може бути використаний як частина вашого CI/CD workflow для кроку **"Запуск команд конфігурації та білдування (запуск скрипту з Етапу 3)"**.
+...(інструкція щодо запуску тестів)...
+
+Користувач: всю історію логів цього чату запиши у txt(користувач українською)
+
+Copilot: (надіслано файл chat_history.txt з логами користувача)
+
+Користувач: всю історію додай
+
+Copilot: (надіслано файл chat_history.txt з логами користувача)
+
+Користувач: усі віпдвоіді копілота також ну
+
+Copilot: (надіслано файл chat_history.txt з усіма питаннями та відповідями Copilot, як у цьому повідомленні)
+
+Користувач: Run cmake -S . -B build
+CMake Error: The source directory "/home/runner/work/csad2526KI409MyronchukVladyslav14/csad2526KI409MyronchukVladyslav14" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+Error: Process completed with exit code 1.
+
+Copilot:  
+Ця помилка означає, що у вашій кореневій директорії проекту відсутній файл CMakeLists.txt.  
+CMake не може продовжити роботу без цього файлу, оскільки саме він містить налаштування для збірки проекту.
+
+### Як виправити
+
+1. **Перевірте наявність файлу CMakeLists.txt**
+   - Переконайтесь, що файл CMakeLists.txt знаходиться у корені вашого репозиторію.
+
+2. **Якщо файл відсутній — створіть його.**
+   Ось приклад найпростішого CMakeLists.txt для проекту на C++:
+
+cmake_minimum_required(VERSION 3.10)
+project(MyProject)
+
+add_executable(my_executable main.cpp)
+
+- Замініть `main.cpp` на назву вашого головного файлу.
+
+3. **Закомітьте та завантажте файл CMakeLists.txt у репозиторій.**
+   - Після цього повторіть запуск процесу збірки.
+
+---
+
+**Якщо CMakeLists.txt вже існує, але не у корені:**
+- Перемістіть його у кореневу директорію або змініть команду, вказавши шлях до директорії з цим файлом:
+
+cmake -S шлях/до/CMakeListsDir -B build
+
+---
+
+Якщо вам потрібна допомога зі створенням повного CMakeLists.txt для вашого проекту — напишіть структуру проекту та основні файли!
+
+---
+
+Користувач: @vladyslavmyronchuk/csad2526KI409MyronchukVladyslav14/pull/5 у мене помилки
+
+Copilot:  
+Ось інформація про ваш pull request:  
+**Назва:** Add yml files  
+**Гілка:** feature/develop/05-yml_files → develop  
+**Статус:** відкритий  
+**Файли змінено:** 1  
+**Додавання рядків:** 42  
+**Вилучень:** 0  
+**Запит на рев’ю:** PavloFedakNULP  
+**Mergeable state:** unstable (нестабільний, можуть бути конфлікти або проблеми)
+
+Ви згадали, що у вас помилки.  
+Щоб допомогти, уточніть:
+- Які саме помилки ви бачите? (Помилки компіляції, тестів, CI/CD, чи щось інше?)
+- Де вони відображаються? (У GitHub Actions, локально, вивід компілятора тощо)
+- Скопіюйте текст помилки або зробіть скріншот.
+
+Це допоможе мені детально проаналізувати і запропонувати рішення.
+
+---
+
+Користувач: всю історію логів цього чату запиши у txt(користувач українською)
+
+Copilot:  
+Ось історія логів цього чату, записана у форматі txt.
